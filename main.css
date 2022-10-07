@@ -78,7 +78,7 @@ main{
 .card2{
     position: absolute;
     top: 900px;
-    right: 0;
+
     width: 400px;
     height: 400px;
     right: 300px;
@@ -94,7 +94,15 @@ main{
     font-weight: 300;
 }
 .button{
-    float: right;
+}
+.button button{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 30px;
+    margin-left: 1000px;
+    margin-top: 5px;
+
 }
 #p1{
     background-image: url(images/desktop/image-deep-earth.jpg);
@@ -147,13 +155,65 @@ main{
     margin-top: 450px;
     letter-spacing: 5px;
 }
+#p5{
+    background-image: url(images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 90vh;
+}
+#p5 p{
+    font-size: 20px; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 450px;
+    letter-spacing: 5px;
+}
+#p6{
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 90vh;
+}
+#p6 p{
+    font-size: 20px; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 450px;
+    letter-spacing: 5px;
+}
+#p7{
+    background-image: url(images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 90vh;
+}
+#p7 p{
+    font-size: 20px; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 450px;
+    letter-spacing: 5px;
+}
+#p8{
+    background-image: url(images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 90vh;
+}
+#p8 p{
+    font-size: 20px; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 650px;
+    letter-spacing: 5px;
+}
 
 footer{
     position: absolute;
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%) ;
-    top: 2500px;
     width: 100%;
+    margin-top: 1500px;
 
 }
 
